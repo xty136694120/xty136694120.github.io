@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xty136694120.github.io</id>
     <title>MyNotes</title>
-    <updated>2020-06-24T06:34:32.937Z</updated>
+    <updated>2020-06-24T06:36:06.794Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xty136694120.github.io"/>
     <link rel="self" href="https://xty136694120.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://xty136694120.github.io/images/avatar.png</logo>
     <icon>https://xty136694120.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, MyNotes</rights>
+    <entry>
+        <title type="html"><![CDATA[舔🐟の学习日记 20.6.24]]></title>
+        <id>https://xty136694120.github.io/post/tian-noxue-xi-ri-ji-20624/</id>
+        <link href="https://xty136694120.github.io/post/tian-noxue-xi-ri-ji-20624/">
+        </link>
+        <updated>2020-06-24T06:35:11.000Z</updated>
+        <content type="html"><![CDATA[<p>阿巴阿巴</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[LeetCode]]></title>
         <id>https://xty136694120.github.io/post/leetcode/</id>
