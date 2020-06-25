@@ -2,17 +2,22 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>舔🐟の学习日记 20.6.24 | MyNotes</title>
-<link rel="shortcut icon" href="https://xty136694120.github.io/favicon.ico?v=1592980557272">
+<title>舔🐟の学习日记  | MyNotes</title>
+<link rel="shortcut icon" href="https://xty136694120.github.io/favicon.ico?v=1593095171538">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://xty136694120.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="舔🐟の学习日记 20.6.24 | MyNotes - Atom Feed" href="https://xty136694120.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="舔🐟の学习日记  | MyNotes - Atom Feed" href="https://xty136694120.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="阿巴阿巴
-" />
+    <meta name="description" content="6/25
+#LeetCode 139单词拆分
+解题思路：动态规划
+*设定一个vector&lt;bool&gt; dp(s.size() + 1, false)存储结果
+*设定set来存储字典
+*找到字典中的最大长度和最小长度
+    fo..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -22,7 +27,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://xty136694120.github.io">
-  <img class="avatar" src="https://xty136694120.github.io/images/avatar.png?v=1592980557272" alt="">
+  <img class="avatar" src="https://xty136694120.github.io/images/avatar.png?v=1593095171538" alt="">
   </a>
   <h1 class="site-title">
     MyNotes
@@ -75,7 +80,7 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              舔🐟の学习日记 20.6.24
+              舔🐟の学习日记 
             </h2>
             <div class="post-info">
               <span>
@@ -89,7 +94,20 @@
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>阿巴阿巴</p>
+                <p>6/25<br>
+#LeetCode 139单词拆分<br>
+解题思路：动态规划<br>
+*设定一个<code>vector&lt;bool&gt; dp(s.size() + 1, false)</code>存储结果<br>
+*设定set来存储字典<br>
+*找到字典中的最大长度和最小长度</p>
+<pre><code class="language-for(int">    for(int j = max(0, i - maxLength); j &lt; i; ++j) {
+        if (dp[j] &amp;&amp; m.find(s.substr(j, i -j) != m.end()) {
+            dp[i] = true;
+            break;
+        }
+    }
+    return dp[s.size()];
+</code></pre>
 
               </div>
               <div class="toc-container">

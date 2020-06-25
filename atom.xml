@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xty136694120.github.io</id>
     <title>MyNotes</title>
-    <updated>2020-06-24T06:36:06.794Z</updated>
+    <updated>2020-06-25T14:26:28.614Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xty136694120.github.io"/>
     <link rel="self" href="https://xty136694120.github.io/atom.xml"/>
@@ -11,12 +11,25 @@
     <icon>https://xty136694120.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, MyNotes</rights>
     <entry>
-        <title type="html"><![CDATA[舔🐟の学习日记 20.6.24]]></title>
+        <title type="html"><![CDATA[舔🐟の学习日记 ]]></title>
         <id>https://xty136694120.github.io/post/tian-noxue-xi-ri-ji-20624/</id>
         <link href="https://xty136694120.github.io/post/tian-noxue-xi-ri-ji-20624/">
         </link>
         <updated>2020-06-24T06:35:11.000Z</updated>
-        <content type="html"><![CDATA[<p>阿巴阿巴</p>
+        <content type="html"><![CDATA[<p>6/25<br>
+#LeetCode 139单词拆分<br>
+解题思路：动态规划<br>
+*设定一个<code>vector&lt;bool&gt; dp(s.size() + 1, false)</code>存储结果<br>
+*设定set来存储字典<br>
+*找到字典中的最大长度和最小长度</p>
+<pre><code class="language-for(int">    for(int j = max(0, i - maxLength); j &lt; i; ++j) {
+        if (dp[j] &amp;&amp; m.find(s.substr(j, i -j) != m.end()) {
+            dp[i] = true;
+            break;
+        }
+    }
+    return dp[s.size()];
+</code></pre>
 ]]></content>
     </entry>
     <entry>
