@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xty136694120.github.io</id>
     <title>MyNotes</title>
-    <updated>2020-06-25T14:26:28.614Z</updated>
+    <updated>2020-06-25T14:27:47.168Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xty136694120.github.io"/>
     <link rel="self" href="https://xty136694120.github.io/atom.xml"/>
@@ -22,7 +22,8 @@
 *设定一个<code>vector&lt;bool&gt; dp(s.size() + 1, false)</code>存储结果<br>
 *设定set来存储字典<br>
 *找到字典中的最大长度和最小长度</p>
-<pre><code class="language-for(int">    for(int j = max(0, i - maxLength); j &lt; i; ++j) {
+<pre><code>for(int i = max(minLength, 0); i &lt;= s.size(); ++i)
+    for(int j = max(0, i - maxLength); j &lt; i; ++j) {
         if (dp[j] &amp;&amp; m.find(s.substr(j, i -j) != m.end()) {
             dp[i] = true;
             break;
